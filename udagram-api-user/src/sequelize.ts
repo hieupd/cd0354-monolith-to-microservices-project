@@ -9,12 +9,6 @@ export const sequelize = new Sequelize({
   'host': config.host,
 
   'dialect': config.dialect,
-  'storage': ':memory:',
-  'dialectOptions': {
-    ssl: {
-      require: true, // This will enable SSL connection
-      rejectUnauthorized: false // This may need to be set based on your certs
-    }
-  }
+  'storage': ':memory:'
 
 });
