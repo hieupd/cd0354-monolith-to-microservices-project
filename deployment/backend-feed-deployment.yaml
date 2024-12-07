@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend-feed
-        image: phamdanghieu47/udagram-api-feed:v3
+        image: phamdanghieu47/udagram-api-feed:v1
         resources:
           requests:
             memory: "2048Mi"
