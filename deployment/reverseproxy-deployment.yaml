@@ -17,6 +17,7 @@ spec:
       containers:
       - name: reverseproxy
         image: phamdanghieu47/reverseproxy:v1
+        imagePullPolicy: Always
         resources:
           requests:
             memory: "2048Mi"

@@ -17,6 +17,7 @@ spec:
       containers:
       - name: backend-feed
         image: phamdanghieu47/udagram-api-feed:v1
+        imagePullPolicy: Always
         resources:
           requests:
             memory: "2048Mi"

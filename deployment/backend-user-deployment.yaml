@@ -17,6 +17,7 @@ spec:
       containers:
       - name: backend-user
         image: phamdanghieu47/udagram-api-user:v1
+        imagePullPolicy: Always
         resources:
           requests:
             memory: "2048Mi"
